@@ -1,0 +1,207 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://m.theopen.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Course Guide"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Par 72"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "7312 Yds"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Yard"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Hole No. 1 - Royal\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Hole No. 2 - Stand\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Hole No. 3 - Course\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "458 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "454 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "426 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "372 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "528 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "201 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "480 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "431 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "197 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "532 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "391 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "194 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "454 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "161 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "577 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "458 Yard"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "551 Yard"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Doosan\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"HSBC\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Mastercard\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Mercedes Benz\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Nikon\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"NTT DATA\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Ralph Lauren\"]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Rolex\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "View full website"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Contact us"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Disclaimer"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Privacy policy"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Trademarks"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
