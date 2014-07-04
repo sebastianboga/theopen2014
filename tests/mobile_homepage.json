@@ -1,0 +1,152 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://m.theopen.com/"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "July 13-20"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "span"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": ""
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "News"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Qualification"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Course Guide"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Players"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tournament Information"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Contact us"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Shop"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Qualifying Series – Greenbrier Classic round one update"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "03 July 2014 23:33 BST"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "James Hahn, Jason Bohn, Jim Renner and Danny Lee hold the qualifying places for The Open Championship after today’s first round of the Greenbrier Classic."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Headlines ..."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "More news"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Visit The Open Shop"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "View in Google Maps"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Getting to Royal Liverpool"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "View full website"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Contact us"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Disclaimer"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Privacy policy"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Privacy policy"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Trademarks"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Facebook"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Twitter"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "YouTube"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Royal Liverpool"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
