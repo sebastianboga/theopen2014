@@ -1,0 +1,52 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "News"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Countdown to The Open"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Video"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "OQS America"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tiger Woods"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "2014 Tickets"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Buy Now"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Shop"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Shop Now"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
