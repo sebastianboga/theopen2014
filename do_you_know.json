@@ -1,0 +1,58 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "History"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Year"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Venue"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Royal Liverpool"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Open Championship has been at"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Champions"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Previous Opens"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='sidenav']//a[.='Do You Know']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "12: Which champions won on debut?"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
