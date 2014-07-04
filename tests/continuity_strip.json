@@ -1,0 +1,48 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The R&A"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Register"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Championships"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Equipment"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "WAGR"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Working for Golf"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Golf Course Management"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Open Championship"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
