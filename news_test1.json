@@ -1,0 +1,47 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "News"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Qualifying Series — Greenbrier Classic round one update"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "James Hahn, Jason Bohn, Jim Renner and Danny Lee hold the qualifying places for The Open Championship after today’s first round of the Greenbrier Classic."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Qualifying Series France — Alstom Open de France Round one update"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Marcel Siem of Germany, Felipe Aguilar of Chile and Finland’s Ro..."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Claret Jug"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The most coveted trophy in the game and one of the most iconic in all of sport: Learn about the origin and history of the Golf Champion Trophy, more commonly referred to as the Claret Jug."
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
