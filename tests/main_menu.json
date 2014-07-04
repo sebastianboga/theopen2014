@@ -1,0 +1,51 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Home"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "News"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tickets"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Hospitality"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Qualification"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Information"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "History"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Media"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Video & Audio"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Shop"
+    }
+  ]
+}
