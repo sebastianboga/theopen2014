@@ -1,0 +1,43 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/en/History/Do-You-Know.aspx"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#sidenav > li > a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Royal Liverpool"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Open Championship has been at"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Royal Liverpool"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "in the following years:"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Previous Opens"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
