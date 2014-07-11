@@ -1,0 +1,558 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://origin-randa.endavadigital.org/en/Working-For-Golf/Golf-Development/Education-Support/Online-Scholarship-Application.aspx"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appFirstSchName"
+      },
+      "text": "Sebastian "
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appFamilyNmae"
+      },
+      "text": "Boga"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHomeAddress"
+      },
+      "text": "Cluj"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appTermTimeAddress"
+      },
+      "text": "Cluj-Napoca"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appEmail"
+      },
+      "text": "sebastian.boga@endava.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appEmailConfirm"
+      },
+      "text": "sebastian.boga@endava.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHomeTelephone"
+      },
+      "text": "07777777"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appMobile"
+      },
+      "text": "0741025447"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[1]//option[1]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[1]//option[2]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[1]//option[2]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[2]//option[1]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[2]//option[2]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[2]//option[7]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[2]//option[8]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[2]//option[8]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[1]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[17]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[17]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[18]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[19]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[20]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[21]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[22]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[23]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[24]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[25]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[34]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[42]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[43]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[42]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[41]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[40]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[39]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[38]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[37]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship1']/div[9]/div[2]/select[3]//option[37]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appNationality"
+      },
+      "text": "Romanian"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "gender_male"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "buttonScholarshipNext"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appPlaceOfStudy"
+      },
+      "text": "Oradea"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appCourseOfStudy"
+      },
+      "text": "Computers"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='scholarship2']/div[3]/div[2]/select//option[6]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appDurationOfCourse"
+      },
+      "text": "5"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHomeGolfClub"
+      },
+      "text": "Sun Garden"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "phsublayout_0_phmaincontent_1_checkboxHandicap"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHandicap"
+      },
+      "text": "90."
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHandicap"
+      },
+      "text": "17"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.page_bg"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.page_bg"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHandicap"
+      },
+      "text": "17"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHandicap"
+      },
+      "text": "1"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appHandicap"
+      },
+      "text": "3"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appCurrentRanking"
+      },
+      "text": "5"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "appTeamsSelectedFor"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appIndividualPlAchievements"
+      },
+      "text": "dfghdf"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appTeamsSelectedFor"
+      },
+      "text": "dfgh"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appTeamsSelectedFor"
+      },
+      "text": "dfgh"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appNationalSquadsSelectedFor"
+      },
+      "text": "dfhdfgfd"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "buttonScholarshipNext"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appFinancialOther"
+      },
+      "text": "sdfgsdfgsd"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appFinancialRandA"
+      },
+      "text": "sdfgsdgf"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appAdminName"
+      },
+      "text": "sdfgsd"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appAdminPosition"
+      },
+      "text": "sdfgsd"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appAdminAddress"
+      },
+      "text": "sdgfsdfg"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appAdminEmail"
+      },
+      "text": "sdfgsdfgsd@w.fg"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appAdminPhone"
+      },
+      "text": "07654"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "appRefereeDetails"
+      },
+      "text": "dfhdfhdfgh"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "checkboxTermsAndConditions"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "buttonScholarshipPreview"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "buttonScholarshipPreview"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "buttonScholarshipSubmit"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#downloadLinkScholarship > a"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
